@@ -1,0 +1,23 @@
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    text-align: center;
+}
+
+button {
+    background: #DAF7A6;
+}
+
+.card {
+    border-style: solid;
+    border-color: #ACAC8A;
+    background-color: #F8F8E1;
+    width: 300px;
+    padding: 200px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    color: #ACAC8A;
+}
