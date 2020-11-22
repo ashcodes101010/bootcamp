@@ -1,11 +1,13 @@
 h2 {
     font-size: 35px;
+    color: #74745c;
 }
 
 table,
 td,
 th {
     border: 1px solid black;
+    margin: auto;
 }
 
 table {

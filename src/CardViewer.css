@@ -1,19 +1,22 @@
 h2 {
     font-size: 35px;
+    color: #74745c;
 }
 
 h3 {
     text-align: center;
+    color: #74745c;
 }
 
 button {
     background: #DAF7A6;
+    margin: auto;
 }
 
 .card {
     border-style: solid;
     border-color: #ACAC8A;
-    background-color: #F8F8E1;
+    background-color: white;
     width: 300px;
     padding: 200px;
     margin: auto;
