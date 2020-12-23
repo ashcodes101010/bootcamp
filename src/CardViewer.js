@@ -42,8 +42,8 @@ class CardViewer extends React.Component {
                     {card}
                 </div>
                 <br />
-                <button disabled={this.state.currentCard == 0} onClick={this.previousCard} >Previous Card</button>
-                <button disabled={this.state.currentCard == this.props.cards.length - 1} onClick={this.nextCard} >Next Card</button>
+                <button disabled={this.state.currentCard === 0} onClick={this.previousCard} >Previous Card</button>
+                <button disabled={this.state.currentCard === this.props.cards.length - 1} onClick={this.nextCard} >Next Card</button>
                 <hr />
                 <Link to="/editor">Go to card editor</Link>
             </div>
