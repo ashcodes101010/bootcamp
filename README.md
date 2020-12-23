@@ -1,3 +1,3 @@
-# Harvard College Datamatch Club Bootcamp 
+Harvard College Datamatch Club Bootcamp 
 
-## Flashcards Web Application
+Flashcards Web Application
