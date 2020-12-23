@@ -29,7 +29,7 @@ class CardEditor extends React.Component {
                     <td>{card.front}</td>
                     <td>{card.back}</td>
                     <td>
-                        <button disabled={this.props.cards.length == 1} onClick={() => this.deleteCard(index)}>Delete card</button>
+                        <button disabled={this.props.cards.length === 1} onClick={() => this.deleteCard(index)}>Delete card</button>
                     </td>
                 </tr>
             );
